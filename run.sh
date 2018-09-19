@@ -18,7 +18,7 @@ mkdir data/bin
 
 #run style transfer on video
 python transform_video.py --in-path examples/content/nasa.mp4 \
-  --checkpoint ./scream.ckpt \
+  --checkpoint ./models/wave.ckpt \
   --out-path /artifacts/out.mp4 \
   --device /gpu:0 \
   --batch-size 4 2>&1
